@@ -75,13 +75,13 @@ We must find solutions for cleaning the plastic pollutants in the ocean as well 
 5. Plastic Ingestion by Marine Fish
     * This data relates to the problem domain and the research question because it shows data regarding who is affected by the plastic within the ocean: marine life. Furthermore, since we depend on marine life, the data is also relevant to many countries and its inhabitants. The data was collected by Matthew S. Savoca, Alexandra G. McInturf, and Elliot L. Hazen in 2021. The study was conducted in order to see plastic consumption within different species, which would then indicate which species and region would need to be further studied.
 
-| Name | # of rows | # of columns |
-|------|-----------|--------------|
-| Tracking Marine Litter | 4,881 | 8 |
-| Microplastic in SF | 44,227 | 8 |
-| Most Common Items Found on Coast | 10 | 2 |
-| Plastic Emitted to Ocean | 165 | 4 |
-| Plastic Ingestion by Marine Fish | 57 | 33 |
+| Name | Number of Observations | Number of Variables | Purpose |
+|---|---|---|---|
+| [Tracking Marine Litter](https://www.frontiersin.org/articles/10.3389/fmars.2021.667591/full) | 4,881 | 8 |
+| [Microplastic in SF](https://data.cnra.ca.gov/dataset/microplastic-sf-bay) | 44,227 | 8 |
+| [Most Common Items Found on Coast](https://www.statista.com/statistics/726724/weight-of-most-common-items-found-in-global-oceans/) | 10 | 2 |
+| [Plastic Emitted to Ocean](https://ourworldindata.org/plastic-pollution) | 165 | 4 |
+| [Plastic Ingestion by Marine Fish](https://onlinelibrary.wiley.com/doi/10.1111/gcb.15533) | 57 | 33 |
 
 ## Expected Implications:
 The expected implications for technologists, designers, and policymakers is to implement waste management solutions that will ultimately reduce waste and ocean pollution. We hope to bring awareness about this issue to policymakers and influence them to pass policies that will reduce single use plastic and bring recycling and waste management to educational institutions. Policies could be made to support less wasteful methods of consumption for everyday consumers and encourage more sustainable options. If the world is better educated about the consequences and damages of ocean plastic it would create a greater need for solutions to prevent the decline of health of the environment, animals, and humans. It could also inspire people to make a greater effort in removing microplastics from the ocean or water nearby cities. We hope to influence technologists and designers to engineer better recycling and waste management technologies to reduce single use plastics. We hope that engineers, technologists, and designers will create designs that will clean the ocean of all pollutants, from microplastics to large industrial waste; with this waste it can be recycled or managed so that it takes up less space and no longer harms the environment. If these policies, recycle and waste machines, and ocean cleaning technologies were created then there will be environmental justice for the oceans, animals, people, and the world.
