@@ -28,7 +28,7 @@ chart <- ggplot(top_10) +
   coord_flip()
 
 # Adding labels to the chart
-chart + labs(
+chart <- chart + labs(
   title = "Top Ten Countries by Plastic Waste Emission to Ocean",
   subtitle = "Mismanaged plastic waste to the ocean per capita",
   x = "Country",
