@@ -80,7 +80,7 @@ We must find solutions for cleaning the plastic pollutants in the ocean as well 
 | [Tracking Marine Litter](https://www.frontiersin.org/articles/10.3389/fmars.2021.667591/full) | 4,881 | 8 |
 | [Microplastic in SF](https://data.cnra.ca.gov/dataset/microplastic-sf-bay) | 44,227 | 8 |
 | [Most Common Items Found on Coast](https://www.statista.com/statistics/726724/weight-of-most-common-items-found-in-global-oceans/) | 10 | 2 |
-| [Plastic Emitted to Ocean](https://ourworldindata.org/plastic-pollution) | 165 | 4 |
+| [Plastic Emitted to Ocean](https://github.com/info201b-au2022/project-group-7-BC/blob/main/data/plastic-pollution.csv) | 165 | 4 |
 | [Plastic Ingestion by Marine Fish](https://onlinelibrary.wiley.com/doi/10.1111/gcb.15533) | 57 | 33 |
 
 ## Expected Implications:
