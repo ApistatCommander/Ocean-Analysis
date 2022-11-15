@@ -55,19 +55,17 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ## Summary Paragraph
 
-```{r, echo=FALSE, message=FALSE}
-source("../source/summary_values.R")
-fish_with_most_plastic_ind
-highest_country_in_ocean
-most_plastic_type
-top_country
-top_item
-num_litter
-```
-From the fifth dataset, it showed that plastic poses a great threat to fish because the fish with most plastic per individual was `r fish_with_most_plastic_ind`.
+
+
 
 
 ## Table
+```{r, echo=FALSE, message=FALSE}
+source("../source/summary_tables.R")
+sum_marine_litter
+```
+
+This table shows the top 10 countries that put the most plastic (in tons) in the ocean. This data helps answer the question “Where is ocean plastic coming from?” Thus, it gives us a little more insight on some of the countries that are major players in terms of polluting the ocean with plastic. This is important because it lets policymakers know where to restrict sending ocean waste to and where to start making policies to put tighter restrictions on ocean waste and trash management
 
 
 
