@@ -9,65 +9,17 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## What is this file for?
-
-* This file will eventually become your project report for **P02: Exploratory Data Analysis**. Specifically, you will write rmarkdown to report your exploratory data analysis.
-
-* Please see Canvas for more details.
-
-## ACCESSING THE /source DIRECTORY
-### Example 1: Source some code and run a function
-```{r}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and 
-# then "source" an R file (data_access.R)
-source("../source/data_access.R")
-data_access_test()
-```
-
-### Example 2: Initialize a variable and then use it
-```{r}
-# Example 1: This function was "sourced" above
-msg <- data_access_test(" Morgan!")
-```
-
-> `r msg` Hope you have a good day!! 
-
-## ABOUT THIS FILE: 
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
 ## Summary Paragraph
 
-<<<<<<< HEAD
-
-
-=======
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 source("../source/summary_values.R")
 
 ```
 These are some summary information regarding our datasets from our project. In the first dataset, it showed that `r highest_country_in_ocean` had the highest amount of plastic ending up in the ocean. The fourth dataset also found that the `r top_country` emitted the most plastic waste to the ocean. The second dataset shows that the most common micro-plastic type found in San Francisco bay was `r most_plastic_type`. The third dataset proved that the most common item found along beaches and coastlines were `r top_item`. From the fifth dataset, it showed that plastic poses a great threat to fish because the fish with most plastic per individual was `r fish_with_most_plastic_ind`.
->>>>>>> refs/remotes/origin/main
 
+## Tables
 
-## Table
+### Table 1
 ```{r, echo=FALSE, message=FALSE}
 source("../source/summary_tables.R")
 sum_marine_litter
@@ -75,7 +27,37 @@ sum_marine_litter
 
 This table shows the top 10 countries that put the most plastic (in tons) in the ocean. This data helps answer the question “Where is ocean plastic coming from?” Thus, it gives us a little more insight on some of the countries that are major players in terms of polluting the ocean with plastic. This is important because it lets policymakers know where to restrict sending ocean waste to and where to start making policies to put tighter restrictions on ocean waste and trash management
 
+### Table 2
+```{r, echo=FALSE, message=FALSE}
+source("../source/summary_tables.R")
+sum_mircoplastics_SF
+```
 
+This table shows the top 10 types of microplastic that were found in the San Francisco bay and surrounding waters. This helps us understand what types of microplastics are most commonly found. We can use San Francisco as a case study in which other coastal areas can understand what microplastics might be prevalent in their area and start finding ways to limit those microplastics. Also, this information gives us an idea on which microplastics we need to research on their effects on the human body.
+
+### Table 3
+```{r, echo=FALSE, message=FALSE}
+source("../source/summary_tables.R")
+fish_with_most_plastic_ind
+```
+
+This table shows which fish species per individual had the most plastic in them. This is important because it answers the question on how plastics are affecting the ocean ecosystems, and this shows that it is greatly threatening the lives that live in it. The harmful effects of plastic, even if it was just in one fish species, can affect every other species as well. Furthermore, the threats that plastic poses to the ocean will also threaten many people’s way of life too, since many people rely on the ocean for necessities such as their diet. Showing the harm done to fish species can influence policymakers to create policies to combat plastic waste within the ocean.
+
+### Table 4
+```{r, echo=FALSE, message=FALSE}
+source("../source/summary_tables.R")
+top_10_waste_per_capita
+```
+
+We included this table to show the top ten countries that emit the most waste per capita by kilograms per year in 2019. This data answers the question: “What top ten countries emit the most plastic waste?” The top ten country that emitted the most plastic into the ocean is the Philippines. The top ten country that emitted the least amount of plastic was Jamaica. This information is important because it provides proof that will influence policymakers to create policies in these countries that will prevent plastic waste emission into the ocean.
+
+### Table 5
+```{r, echo=FALSE, message=FALSE}
+source("../source/summary_tables.R")
+ordered_waste_type_found
+```
+
+This table is included because it shows the most common items found on coastlines. The most common item found was cigarette butts, and the least common item found was glass beverage bottles. This data proves to policymakers that items like cigarette butts, food wrappers, plastic bottle caps, and plastic bags are ending up on coastlines and can harm the environment, marine animals, and people who frequent the beach or the coast. The goal is for this data to influence policymakers to create regulations and policies that will prevent littering and better trash management.
 
 ## Chart One
 ```{r, echo=FALSE, message=FALSE}
