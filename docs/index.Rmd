@@ -59,7 +59,11 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ## Chart One
 ```{r, echo=FALSE, message=FALSE}
+source("../source/chart_1.R")
+chart
 ```
+
+This chart serves the purpose of answering the third research question: "What are common waste items that end up on beaches and shorelines?" This chart shows the proportions of the most common items found on coastlines that were collected during the International Coastal Ocean Cleanup in 2020. There were 3,548,691 items collected. The most common item found was cigarette butts with a 27% of all the items collected. The least common item that was found was glass beverage bottles with a 4% of all the items collected.
 
 ## Chart Two
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
