@@ -68,7 +68,3 @@ chart
 ```
 
 This chart serves the purpose of answering the fourth research question: "What top ten countries emit the most plastic waste?" This chart shows the top ten countries that emit the most plastic waste to the ocean per capita in kilograms per year. The country that emits the most waste per capita is the Philippines with over three kilograms (3.296 kg/yr) of mismanaged plastic waste to the ocean per year. The country that emits the least per capita (in the top ten) is Jamaica with less than one kilogram (0.792 kg/yr) of mismanaged plastic waste to the ocean per year.
-
-## Chart Three
-```{r, echo=FALSE, message=FALSE}
-```
