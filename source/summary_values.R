@@ -10,7 +10,8 @@ microplastiscs_SF <- read.csv(
   "https://raw.githubusercontent.com/info201b-au2022/project-group-7-BC/main/data/Microplastic_in_SF_data.csv",
   stringsAsFactors = FALSE
 )
-
+common_waste <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-group-7-BC/main/data/common-ocean-waste.csv")
+by_country <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-group-7-BC/main/data/plastic-pollution.csv")
 
 fish <- read.csv(url("https://raw.githubusercontent.com/mssavoca/Fish-plastic_meta-analysis/master/Plastics%20ingestion%20records%20fish%20master_final_SciAd.csv"))
 
@@ -33,3 +34,14 @@ fish_with_most_plastic_ind <- fish %>%
   filter(Common.name != "", na.rm = TRUE)%>%
   filter(Mean.num.particles.per.indv == max(Mean.num.particles.per.indv, na.rm = TRUE)) %>%
   pull(Common.name)
+
+
+#Most common items
+top_item <- common_waste %>%
+  filter(Number_of_items == max(Number_of_items)) %>%
+  pull(Characteristic)
+
+#Country with most mismanaged plastic waste ocean per capita
+top_country <- by_country %>%
+  filter(Mismanaged.plastic.waste.to.ocean.per.capita..kg.per.year. == max(Mismanaged.plastic.waste.to.ocean.per.capita..kg.per.year.)) %>%
+  pull(Entity)
