@@ -15,10 +15,10 @@ by_country <- read.csv("https://raw.githubusercontent.com/info201b-au2022/projec
 
 fish <- read.csv(url("https://raw.githubusercontent.com/mssavoca/Fish-plastic_meta-analysis/master/Plastics%20ingestion%20records%20fish%20master_final_SciAd.csv"))
 
-marine_litter <- read.csv("Tracking_Marine_Litter_Data.csv")
+#marine_litter <- read.csv("Tracking_Marine_Litter_Data.csv")
 
 #number of observations in marine litter
-num_litter <- nrow(marine_litter)
+# num_litter <- nrow(marine_litter)
 
 #Highest country 
 highest_country_in_ocean <- marine_litter %>%

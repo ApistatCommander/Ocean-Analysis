@@ -55,16 +55,11 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ## Summary Paragraph
 
-```{r, echo=FALSE, message=FALSE}
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 source("../source/summary_values.R")
-fish_with_most_plastic_ind
-highest_country_in_ocean
-most_plastic_type
-top_country
-top_item
-num_litter
+
 ```
-From the fifth dataset, it showed that plastic poses a great threat to fish because the fish with most plastic per individual was `r fish_with_most_plastic_ind`.
+These are some summary information regarding our datasets from our project. In the first dataset, it showed that `r highest_country_in_ocean` had the highest amount of plastic ending up in the ocean. The fourth dataset also found that the `r top_country` emitted the most plastic waste to the ocean. The second dataset shows that the most common micro-plastic type found in San Francisco bay was `r most_plastic_type`. The third dataset proved that the most common item found along beaches and coastlines were `r top_item`. From the fifth dataset, it showed that plastic poses a great threat to fish because the fish with most plastic per individual was `r fish_with_most_plastic_ind`.
 
 
 ## Table
