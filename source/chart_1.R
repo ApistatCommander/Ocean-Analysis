@@ -17,6 +17,7 @@ chart <- ggplot(data, aes(x="", y = Number_of_items, fill = Characteristic)) +
   labs(
     title = "Most common items found on coastlines in 2020",
     caption = "Total waste items collected: 3,548,691",
+    subtitle = "These items were collected during the International Coastal Ocean Cleanup in 2020"
   ) +
   theme_void()
 
