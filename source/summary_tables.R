@@ -35,7 +35,8 @@ sum_marine_litter <- marine_litter %>%
 # Amount of microplastics found per PlasticType
 sum_mircoplastics_SF <- microplastiscs_SF %>% 
   group_by(PlasticType) %>%
-  summarise(TotalFound = n())
+  summarise(TotalFound = n()) %>%
+  top_n(n = 10)
 
 # Top 20 highest average number of particles per individual
 fish_with_most_plastic_ind <- fish %>%
