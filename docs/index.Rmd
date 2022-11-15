@@ -55,7 +55,21 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 ## Summary Paragraph
 
+```{r, echo=FALSE, message=FALSE}
+source("../source/summary_values.R")
+fish_with_most_plastic_ind
+highest_country_in_ocean
+most_plastic_type
+top_country
+top_item
+num_litter
+```
+From the fifth dataset, it showed that plastic poses a great threat to fish because the fish with most plastic per individual was `r fish_with_most_plastic_ind`.
+
+
 ## Table
+
+
 
 ## Chart One
 ```{r, echo=FALSE, message=FALSE}
