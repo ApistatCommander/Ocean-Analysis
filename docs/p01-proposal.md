@@ -83,7 +83,7 @@ We must find solutions for cleaning the plastic pollutants in the ocean as well 
 
 | Name | Number of Observations | Number of Variables | Purpose |
 |---|---|---|---|
-| [Tracking Marine Litter](https://www.frontiersin.org/articles/10.3389/fmars.2021.667591/full) | 4,881 | 8 | Provides insight on where ocean plastic is coming from (RQ 1) |
+| [Tracking Marine Litter](https://github.com/info201b-au2022/project-group-7-BC/blob/main/data/Tracking_Marine_Litter_data.CSV) | 165 | 4 | Provides insight on where ocean plastic is coming from (RQ 1) |
 | [Microplastic in SF](https://data.cnra.ca.gov/dataset/microplastic-sf-bay) | 44,227 | 8 | Provides insight on what types of microplastics are found in SF and where they were found (RQ 2) |
 | [Most Common Items Found on Coast](https://github.com/info201b-au2022/project-group-7-BC/blob/main/data/common-ocean-waste.csv) | 10 | 2 | Provides insight to what are the most common items found on coastlines (RQ 3) |
 | [Plastic Emitted to Ocean](https://github.com/info201b-au2022/project-group-7-BC/blob/main/data/plastic-pollution.csv) | 165 | 4 | Provides insight to which countries emit the most plastic to the ocean per capita (RQ 4)
