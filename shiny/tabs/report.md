@@ -4,11 +4,11 @@
 
 Andy Nguyen (anguye7@uw.edu\
 Julia Russel (jgrusse@uw.edu)\
-Jasmine Wong (jwong100@uw.edu)\
+Jasmine Wong (jwong100@uw.edu)
 
-*INFO-201: Technical Foundations of Informatics*
-*The Information School*
-*University of Washington*
+*INFO-201: Technical Foundations of Informatics*\
+*The Information School*\
+*University of Washington*\
 *Autumn 2022*
 
 ### Abstract
