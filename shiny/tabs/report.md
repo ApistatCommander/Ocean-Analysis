@@ -9,7 +9,7 @@ Jasmine Wong (jwong100@uw.edu)\
 *INFO-201: Technical Foundations of Informatics*
 *The Information School*
 *University of Washington*
-*Winter 2022*
+*Autumn 2022*
 
 ### Abstract
 
