@@ -2,13 +2,13 @@
 
 # Ocean Plastic: Where does it come from and what does that mean for us?
 
-Andy Nguyen ([anguye7\@uw.edu](mailto:anguye7@uw.edu){.email})\
-Julia Russel ([jgrusse\@uw.edu](mailto:jgrusse@uw.edu){.email})\
-Jasmine Wong ([jwong100\@uw.edu](mailto:jwong100@uw.edu){.email})
+Andy Nguyen (anguye7@uw.edu\
+Julia Russel (jgrusse@uw.edu)\
+Jasmine Wong (jwong100@uw.edu)\
 
-*INFO-201: Technical Foundations of Informatics*\
-*The Information School*\
-*University of Washington*\
+*INFO-201: Technical Foundations of Informatics*
+*The Information School*
+*University of Washington*
 *Winter 2022*
 
 ### Abstract
