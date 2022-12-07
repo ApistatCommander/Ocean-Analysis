@@ -2,13 +2,13 @@
 
 # Ocean Plastic: Where does it come from and what does that mean for us?
 
-Andy Nguyen (anguye7@uw.edu\
-Julia Russel (jgrusse@uw.edu)\
-Jasmine Wong (jwong100@uw.edu)
+Andy Nguyen (anguye7@uw.edu)<br>
+Julia Russel (jgrusse@uw.edu)<br>
+Jasmine Wong (jwong100@uw.edu)<br>
 
-*INFO-201: Technical Foundations of Informatics*\
-*The Information School*\
-*University of Washington*\
+*INFO-201: Technical Foundations of Informatics*<br>
+*The Information School*<br>
+*University of Washington*<br>
 *Autumn 2022*
 
 ### Abstract
@@ -147,4 +147,4 @@ Team, R. C. (2019, June 1). *Why some countries are shipping back plastic waste.
 
 ## Appendix A
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+Our group has no questions, thank you.
