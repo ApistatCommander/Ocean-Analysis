@@ -1,24 +1,12 @@
-# The `\data` Directory: Project Data Summary 
+# The `\data` Directory: Project Data Summary
 
-In our project, we use the following data files and Application Programming Interfaces:
+In our project, we use the following data files:
 
-## Data files (TODO: Update/delete for your PROJECT)
+## Data files
 |Data File Name | Brief Description|
 |---------------| -----------------|
-|[example.cvs](./example.csv) | This file contains temperature data. (See report for details.)
-|[another-file](./filename2.csv) | Description ... 
-
-## Application Programming Interfaces (API) (TODO: Update/delete for your PROJECT)
-
-* **New York Times Books API**. The _New York Times_ provides data for Best
-Sellers lists and the books that have been reviewed in the New York Times. An overview of the API that we use in our project is available here: [Books API](https://developer.nytimes.com/docs/books-product/1/overview). For more about developing apps with New York Times data see: [NYTimes Developers](https://developer.nytimes.com/).
-
-# Developer notes: About the `/data` Directory (TODO: Read and delete this section)
-
-* Use the `/data` directory to store any data that you using in your project (for example, CSV files)
-* Edit this `README.md` file and summarize your data files
-* If you are using APIs to access data, summarize them, providing specific information
-* See examples above.
-* Please remember your audience (prospective employers, open source colleagues, TAs, Instructors). Therefore, 
-aim for clarity and conciseness.
-* When done, be sure to delete these NOTE sections and the example CSV file (which are intended for you, of course, not your audience!)
+|[Microplastic_in_SF_data.csv](./Microplastic_in_SF_data.csv) | This file contains Microplastic and Microparticle Data From Surface Water: San Francisco Bay and Adjacent Sanctuaries. (See report for details.)
+|[Plastics ingestion records fish master_final_SciAd.csv](./Plastics ingestion records fish master_final_SciAd.csv) | This file contains data about Plastic Ingestion by Marine Fish. (See report for details.)
+| [Tracking_Marine_Litter_data.CSV](./Tracking_Marine_Litter_data.CSV) | This file contains data Tracking Marine Litter with a Global Ocean Model: Where Does it Go? Where does it Come From? (See report for details.)
+| [common-ocean-waste.csv](./common-ocean-waste.csv) | This file contains data of Most common items found during the International Coastal Ocean Cleanup in 2020. (See report for details.)
+| [plastic-pollution.csv](./plastic-pollution.csv) | This file contains data of Plastic Pollution - Plastic Emitted to Ocean per Capita. (See report for details.)
