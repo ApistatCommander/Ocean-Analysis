@@ -7,8 +7,8 @@ show_pie_chart <- radioButtons(
   inputId = "show",
   label = h5("Display Piechart Aesthetic:"),
   choices = list(
-    "Normal" = 1,
-    "Simple" = 2
+    "Normal (with legend)" = 1,
+    "Simple (without legend)" = 2
   )
 )
 
