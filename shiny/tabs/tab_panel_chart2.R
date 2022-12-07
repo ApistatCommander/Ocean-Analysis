@@ -2,6 +2,7 @@
 
 library(shiny)
 
+# Creates a radio buttons widget 
 show_pie_chart <- radioButtons(
   inputId = "show",
   label = h5("Display Piechart Aesthetic:"),
@@ -11,6 +12,7 @@ show_pie_chart <- radioButtons(
   )
 )
 
+# Creates a select input widget 
 show_max_min <- selectInput(
   inputId = "max_min",
   label = h5("Show Ten Countries with:"),
@@ -20,6 +22,7 @@ show_max_min <- selectInput(
   )
 )
 
+# Creates the tab
 tab_panel_chart2 <-tabPanel(
   "Chart 2",
   titlePanel(
@@ -27,6 +30,7 @@ tab_panel_chart2 <-tabPanel(
   hr(),
   h3("What are common waste items that end up on beaches and shorelines?"),
   br(),
+  # Displays the pie chart section
   sidebarLayout(
     position = "left",
     sidebarPanel(
@@ -60,6 +64,7 @@ tab_panel_chart2 <-tabPanel(
   hr(),
   h3("What top ten countries emit the most and least plastic waste?"),
   br(),
+  # Displays the bar plot section
   sidebarLayout(
     position = "left",
     sidebarPanel(
