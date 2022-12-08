@@ -58,18 +58,14 @@ tab_panel_chart2 <-tabPanel(
         be trashcans, recycling, and compost bins distributed throughout the 
         areas for people to dispose of their waste in the respective bin easily.
         Policymakers should implement policies that will fine people who do not 
-        dispose of their waste properly.")
-    )
-  ),
+        dispose of their waste properly."))),
   hr(),
   h3("What top ten countries emit the most and least plastic waste?"),
   br(),
   # Displays the bar plot section
   sidebarLayout(
     position = "left",
-    sidebarPanel(
-      show_max_min
-    ),
+    sidebarPanel(show_max_min),
     mainPanel(
       plotlyOutput("barplot"),
       p(strong("Caption: "), "This chart shows the top ten countries by most and
