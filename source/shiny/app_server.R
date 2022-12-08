@@ -12,9 +12,54 @@ library(dplyr)
 library(ggplot2)
 library(plotly)
 
+# ----- [Tab 1 - Data Wrangling] ----- #
+source("chart_helpers/build_pieQ2.R")
+source("chart_helpers/build_pieQ1.R")
+source("chart_helpers/build_bar.R")
+
+rq1_df <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-group-7-BC/main/data/Tracking_Marine_Litter_data.CSV",
+                   stringsAsFactors = FALSE)
+
+rq2_df <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-group-7-BC/main/data/Microplastic_in_SF_data.csv",
+                   stringsAsFactors = FALSE)
+
+rq1_df <- rq1_df %>%
+  rename(Country_Name = Country.Name, Tons_Exported = Tons.Exported,
+         Ends_in_the_ocean = Ends.in.the.Ocean, 
+         Ends_in_the_beach = Ends.in.the.beach)
+
+rq1_df$Country_Name <- tolower(rq1_df$Country_Name)
+
+
+rq2_df[, 9:11] <- str_split_fixed(rq2_df$MatrixName, ",", n =3)
+
+rq2_df <- rq2_df %>%
+  select(PlasticType, MorphologicalCategory, V9) %>%
+  rename(location = V9)
+
+category <- rq2_df %>%
+  select(MorphologicalCategory, location) %>%
+  filter(MorphologicalCategory != "")
 
 server <- function(input, output) {
 # ----- [Tab 1 - Charts] ----- #
+  
+  output$stackedBarQ1 <- renderPlotly({
+    plot <- build_bar(rq1_df, input$q1Bar)
+    return(plot)
+  })
+  
+  # RQ1 Pie
+  output$pieQ1 <- renderPlotly({
+    plot <- build_pieQ1(rq1_df, input$q1Pie)
+    return(plot)
+  })
+  
+  # RQ2 Pie 2
+  output$pieQ2 <- renderPlotly({
+    plot <- build_pieQ2(category, input$q2Pie)
+    return(plot)
+  })
   
 # ----- [Tab 2 - Charts] ----- #
   
