@@ -17,6 +17,13 @@ tab_panel_summary <-tabPanel(
               affect other fish species and even us."),
     ),
     h3("What now?"),
-    p("")
+    p("These three main takeaways remind us that it is vital to understand what 
+      is happening in our world’s oceans. We must take care of our oceans and 
+      sustain the health of our planet, animals, and humanity. We need to start 
+      finding better ways to manage the trash we have already created. We need 
+      to care about the freshwater and saltwater ecosystems that are being 
+      affected by all this trash. We need to care about the future generations 
+      that are going to have to deal with the actions of the people that came 
+      before them. We need to advocate for change and environmental justice.")
 )
 
