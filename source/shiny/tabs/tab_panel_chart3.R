@@ -12,7 +12,7 @@ fish_plastic_options <- radioButtons(
 
 tab_panel_chart3 <-tabPanel(
   "Chart 3",
-  titlePanel("Plastic in Fish"),
+  titlePanel("Interactive Chart: Plastic in Fish"),
   hr(),
   h3("How much plastic is found in fish?"),
   br(),
