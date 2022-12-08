@@ -44,11 +44,11 @@ We must find solutions for cleaning the plastic pollutants in the ocean as well 
 
 ## Research questions
 
-1. Where does the majority of the plastic in the ocean end up and if that is near a land mass, how does that affect the community living there?
+1. Where does the majority of the plastic in the ocean end up?
     * The plastic that ends up in the ocean has to go somewhere. If that somewhere is a land mass then a community that lives near it. It is important to understand how that community is affected because they deserve to live in a clean and safe environment just like us.
 
 
-2. How are microplastics becoming part of the ocean ecosystem and what types of plastics are prevalent? How is that affecting the human body?
+2. What types of microplastics are prevalent? How is that affecting the human body?
     * Microplastics are becoming a part of our everyday lives and we don’t know the effects on our bodies they might cause. Thus it is important for us to understand how and where it is happening, what type of microplastics are the most prevalent, and how that is affecting us.
 
 
