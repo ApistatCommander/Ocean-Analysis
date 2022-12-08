@@ -1,18 +1,12 @@
 # The `/source` Directory
 
-All of our project code is found in this directory.  We further organize our code into 
+All of our project code is found in this directory.  We further organize our code into
 these sub-directories (TODO: Update/Delete)
 
 |Source Directories | Brief Description|
 |---------------| -----------------|
-|[xxx](./xxx) | Description ... 
-|[xxx](./xxx) | Description ... 
-
-
-# DEVELOPER NOTE 1: About ... 
-* All source code for your projects should go in the `/source` directory
-* To organize your code, you might decide to create sub-directories
-* If you use sub-directories, plese briefly describe them in the table above
-* Please remember your audience (prospective employers, open source colleagues, TAs, Instructors). Therefore, 
-aim for clarity and conciseness.
-* When done, be sure to delete this NOTE sections (which are intended for you, of course, not your audience!)
+|[chart_1.R](./chart_1.R) | Contains the code that wrangles and creates a pie chart from data on most common items found on coastlines.
+|[chart_2.R](./chart_2.R) | Contains the code that wrangles and creates a bar chart from data on countries and their plastic waste emissions in the ocean.
+|[summary_tables.R](./summary_tables.R) | Contains code that wrangles and creates summary data tables of all datasets used in our project.
+|[summary_values.R](./summary_values.R) | Contains code that wrangles and creates summary values from all the datasets used in our project.
+|[shiny](./shiny) | Subdirectory which contains our group's Shiny App code.
