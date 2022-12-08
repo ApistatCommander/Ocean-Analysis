@@ -1,0 +1,13 @@
+name: shiny
+title: shiny
+username:
+account: julia-russell02
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7845834
+bundleId: 6609503
+url: https://julia-russell02.shinyapps.io/shiny/
+when: 1670489418.42085
+lastSyncTime: 1670489418.42087
+asMultiple: FALSE
+asStatic: FALSE
