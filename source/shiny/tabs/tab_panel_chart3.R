@@ -19,7 +19,13 @@ tab_panel_chart3 <-tabPanel(
   sidebarLayout(
     position = "left",
     sidebarPanel(
-      fish_plastic_options
+      fish_plastic_options,
+      slider <- sliderInput("slider", 
+                            label = h5("Show Number of Fish Specie"), 
+                            min = 3, 
+                            max = 20, 
+                            value = 20
+                            )
     ),
     mainPanel(
       plotlyOutput("fish_graph")
@@ -30,9 +36,18 @@ tab_panel_chart3 <-tabPanel(
     in which plastic is inside them."),
   h4(strong("Summary: ")),
   p("The chart shows that the Asian Sea Bass has the greatest amount
-    of plastic particles within them. The other chart shows thet the proportion
-    of fish in the population contains plastic within them. The chart shows
-    that in many populations, the entire population of that species contains
-    plastics.")
-  
+    of plastic particles within them. It is followed by the whale shark. 
+    The other chart shows that varying portions of the population contain 
+    plastic, but some species are more likely to contain plastic. For example,
+    when looking at the whale sharks, three-lined tongue sole, great lizardheard,
+    silver silago, and gilthead bream, the proportion that contained plastic was
+      1.0, which suggests that the entire population of those species contains
+      plastic. Further, for species like the bartail flathead and the European
+      pilchard, the proportion found to contain plastic was greater than 0.5, 
+      which suggests that a majority of them contains plastic. Some species,
+      like the blackmouth catshark, had a proportion less than 0.5. While
+      it shows that most did not contain plastic, the data suggests that
+      we need to reduce marine plastics because as more plastics enter the 
+      ecosystem, more fish will inevitably ingest it, and this can have
+      devastating effects on many fish populations.")
 )

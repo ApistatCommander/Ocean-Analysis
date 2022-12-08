@@ -213,41 +213,57 @@ server <- function(input, output) {
       select(Common.name, Mean.num.particles.per.indv) %>%
       filter(Common.name != "")
     
-    top_fish_part_plastic <- fish_df_redux %>%
-      top_n(20, Mean.num.particles.per.indv)
+    fish_df_redux <- fish_df_redux %>%
+      rename(
+        fish_species = Common.name,
+        avg_number_of_plastic_particles = Mean.num.particles.per.indv
+      )
     
-    reorder
+    # top_fish_part_plastic <- fish_df_redux %>%
+    #   top_n(20, avg_number_of_plastic_particles)
+    top_fish_part_plastic <- fish_df_redux %>%
+      top_n(input$slider, avg_number_of_plastic_particles)
+    #reorder
     top_fish_part_plastic$Common.name <-with(
       top_fish_part_plastic,
-      reorder(Common.name, Mean.num.particles.per.indv)
+      reorder(fish_species, avg_number_of_plastic_particles)
     )
       
     fish_particle_bar <- plot_ly(
       data = top_fish_part_plastic,
-      x = ~Mean.num.particles.per.indv,
-      y = ~Common.name,
+      x = ~avg_number_of_plastic_particles,
+      y = ~fish_species,
       name = "Top 20 Fish With the Highest Average Number of Plastic Particles", 
       type = "bar"
     ) %>%
       layout(title = "Top 20 Fish With the Highest Average Number of Plastic Particles")
     
-    #fish_particle_bar
-    #Proportion containing Plastic   
+    fish_particle_bar
+    
+    #Proportion containing Plastic 
+    
     fish_df_redux_proportions <- fish_df %>%
       select(Common.name, Prop.w.plastic)%>%
       filter(Common.name != "")
     
+    fish_df_redux_proportions <- fish_df_redux_proportions %>%
+      rename(
+        fish_species = Common.name,
+        proportion_of_fish_with_plastic = Prop.w.plastic
+      )
+    
     top_fish_prop_plastic <- fish_df_redux_proportions %>%
-      top_n(20, Prop.w.plastic)
+      filter(proportion_of_fish_with_plastic > 0.05) %>%
+      head(input$slider)
     
     fish_prop_bar <- plot_ly(
       data = top_fish_prop_plastic, 
-      x= ~Prop.w.plastic,
-      y = ~Common.name,
+      x= ~proportion_of_fish_with_plastic,
+      y = ~fish_species,
       name = "Fish with the Highest Proportion of Plastic in them",
       type = "bar"
     )%>%
-      layout(title = "Highest Proportions of Plastic within Fish")
+      layout(title = "Varying Proportions of Plastic within Fish")
     
     
     #fish_prop_bar
