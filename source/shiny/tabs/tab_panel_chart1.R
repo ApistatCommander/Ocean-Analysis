@@ -18,7 +18,7 @@ tab_panel_chart1 <-tabPanel(
         textInput(
           "q1Bar",
           label = "Input Desired Countries (seperated by commas)",
-          value = "United states of america, China, Russia, Japan"
+          value = "United states of america, China, India, Philippines"
         )
       ),
       mainPanel(
