@@ -102,14 +102,20 @@ We must find solutions for cleaning the plastic pollutants in the ocean as well 
 Some limitations is in the way that some of the data is collected because there maybe some uncertainty as result of the methods that are used for collected. For example, for some datasets there is little observational data, so a numerical model and simulation is used to track plastics instead. Further uncertainties can be a result of anomalies in the environment such as the currents in the ocean. Furthermore, some datasets have greater focuses on certain regions than other regions. Therefore, this can mean that some regions may not be accounted for, and, in turn, some populations may be excluded as well. Likewise, since the ocean is so vast, some parts of the ocean cannot be accounted for. This can mean that some creatures, such as those deep in the deep-sea, may not be able to be accounted for due to being unstudied.
 
 ## Findings
+#### Research Question 1
+The first research question asks “Where does the majority of the plastic in the ocean end up and if that is near a land mass, how does that affect the community living there?” From our analysis we found that the countries that release the most trash in the ocean and onto beaches are China, Philippines, and India. All three of them also release more trash onto beaches than into the ocean: China (84.2% on the beach, 15.8% in the ocean), India (63.5% on the beach, 36.5% in the ocean), Philippines (64.2% on the beach, 35.8% in the ocean).
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers.
+#### Research Question 2
+The second research question asks “What types of microplastics are prevalent? How is that affecting the human body?” Out of all the locations the data was collected (blankwater, effluent, runoff, sample water, sediment, tissue), the top three types of microplastics were fiber, fragment, and foam. Despite the limited available knowledge on the effect that microplastics have on the human body, “increasing incidence of neurodegenerative diseases, immune disorders and cancers may also be related to the increased exposure to environmental contaminants, including microplastics” (Prata). We can use the analysis done on the San Francisco bay as a case study to further speculate on the microplastic concentrations in other coastal areas.
 
-![covid daily case chart](image_example2.png)
+#### Research Question 3
+The findings for the third research question: “What are common waste items on beaches and shorelines?” We found that the most common items collected during the International Coastal Ocean Cleanup in 2020 were cigarette butts, with 27% of all the items collected. The least common item found was glass beverage bottles, with 4% of all collected items.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Research Question 4
+The fourth research question is, “What top ten countries emit the most and least plastic waste?” From our data analysis, we found that the top ten countries that emit the most plastic waste to the ocean per capita in kilograms per year are (in descending order): the Philippines (3.296 kg/y), Suriname, Trinidad and Tobago, Saint Lucia, Malaysia, Guyana, Panama, Grenada, Belize, and Jamaica (0.792 kg/yr). The countries that emit the least (excluding countries with zero emissions) plastic waste to the ocean per capita per kilograms per year (in ascending order) are Saudi Arabia (0.000088 kg/yr), Jordan, Somalia, Oman, Kazakhstan, Georgia, Poland, Namibia, Bulgaria, and Australia (0.0013 kg/yr).
 
-**NOTE:** the images are located in `www/`
+#### Research Question 5
+The fifth research question, “Which animals are affected by marine plastic?” From our data analysis, we found that the species of fish with the most particles of plastic was the Asian sea bass. It contained 1,268.5 particles of plastic on average. The whale shark had the second highest amount of particles of 38. Furthermore, when looking at the proportion of fish species that contained plastic, the data showed that every individual fish in the population contained species. Species include whale sharks, Japanese sea bass, and three-lined tongue sole. 
 
 ## Discussion
 
@@ -121,7 +127,10 @@ If we understand where it comes from and how it affects the planet we can use th
 
 ## Conclusion
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+As individuals, we won’t be on earth for long. We’re only on earth for an infinitely small amount of time when compared to the entire of earth. There have been 6 other mass extinction events before humans ever existed and there will probably be many more in the future. Thus, you might think what you do or what others do during our stay might not matter in the grand scheme of things. But it does. It does now. All the trash and microplastics in our ocean and beaches did not appear out of thin air. Humans put them there. Humans flicked their cigarette butts on beaches and let large amounts of trash flow onto beaches and into the ocean without a care in the world. Now, we are facing the consequences of actions like that. Microplastics are being found in seafood that we consume and we have barely scratched the surface of the health effects those microplastics have on the body. Beaches are becoming more like landfills than they are beaches. Finding trash in the ocean is becoming more common than finding fish. There are garbage patches in the ocean bigger than the size of Texas. These are the result of careless people and careless governments who would rather dump the problem into the ocean, or onto the beach or a less developed country than figure out a better solution.
+
+What is the future for the next generation or the generation after that? If we don’t start making an effort for change then they will live in a world that is even more full of trash and plastic than ours. Someone has to put limits on the countries that mismanage their trash. Our government won’t do it on their own because they reap the benefits of exporting to those countries. We have to stand up and fight for this change otherwise it won’t happen. We need to make living a less wasteful lifestyle more accessible for all, not just it being a trend for elites. We need to start finding better ways to manage the trash we have already created. We need to care about the freshwater and saltwater ecosystems that are being affected by all this trash. We need to care about the future generations that are going to have to deal with the actions of the people that came before them. We need to advocate for change and environmental justice.
+
 
 #### Acknowledgements
 
@@ -136,6 +145,8 @@ Chassignet, E. P., Xu, X., & Zavala-Romero, O. (1AD, January 1). *Tracking marin
 Ocean Conservancy. (2021, October 18). *Items found in Oceans Globally 2020.* Statista. Retrieved October 30, 2022, from https://www.statista.com/statistics/726724/weight-of-most-common-items-found-in-global-oceans/
 
 *Ocean plastics pollution.* Ocean Plastics Pollution. (n.d.). Retrieved October 31, 2022, from https://www.biologicaldiversity.org/campaigns/ocean_plastics/
+
+Prata, Joana, et al. “Environmental Exposure to Microplastics: An Overview on Possible Human Health Effects.” *Science Direct*, 13 Nov. 2019, https://www.sciencedirect.com/science/article/pii/S0048969719344468. 
 
 Ritchie, H., & Roser, M. (2018, September 1). *Plastic pollution.* Plastic Pollution. Retrieved October 30, 2022, from https://ourworldindata.org/plastic-pollution  
 
