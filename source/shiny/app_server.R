@@ -13,9 +13,9 @@ library(ggplot2)
 library(plotly)
 
 # ----- [Tab 1 - Data Wrangling] ----- #
-source("chart_helpers/build_pieQ2.R")
-source("chart_helpers/build_pieQ1.R")
-source("chart_helpers/build_bar.R")
+source("source/shiny/chart_helpers/build_pieQ2.R")
+source("source/shiny/chart_helpers/build_pieQ1.R")
+source("source/shiny/chart_helpers/build_bar.R")
 
 rq1_df <- read.csv("https://raw.githubusercontent.com/info201b-au2022/project-group-7-BC/main/data/Tracking_Marine_Litter_data.CSV",
                    stringsAsFactors = FALSE)
