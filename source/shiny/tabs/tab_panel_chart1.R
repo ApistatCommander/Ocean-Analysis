@@ -22,7 +22,16 @@ tab_panel_chart1 <-tabPanel(
         )
       ),
       mainPanel(
-        plotlyOutput("stackedBarQ1")
+        plotlyOutput("stackedBarQ1"),
+        p(strong("Caption: "), "Displays the amount of trash of each inputed 
+          country exported and how much (in tons) trash ends up in the ocean
+          or on the beach"),
+        h4(strong("Summary")),
+        p('This chart helps answer the first research question:"Where does the 
+          majority of the plastic in the ocean end up and if that is near a 
+          land mass, how does that affect the community living there?" This
+          chart allows us to compare countries on where the exported trash of
+          desired countrys go.')
       )
     ),
     br(),
@@ -37,7 +46,19 @@ tab_panel_chart1 <-tabPanel(
         )
       ),
       mainPanel(
-        plotlyOutput("pieQ1")
+        plotlyOutput("pieQ1"),
+        p(strong("Caption: "), "Displays the proportion of exported trash from 
+          desired country that ends up in the ocean or ends up in the beach"),
+        p(strong("Summary")),
+        p("This chart also helps answer the first research question. This chart
+           gives us another way of comparing the amount of trash that ends up 
+          in the ocean vs the amount of trash that ends up on the beach."),
+        p("The data from this chart and the one above should help policy makers 
+        better understand where the exported trash of their country ends up. 
+        Policy makers can also better understand where other countries' trash 
+        goes in order to impose teriffs or other countermeasures to fight trash 
+        pollution. This data can also help activists with knowing which country 
+        they need to cocentrate their efforts.")
       )
     ),
     hr(),
@@ -56,7 +77,20 @@ tab_panel_chart1 <-tabPanel(
         )
       ),
       mainPanel(
-        plotlyOutput("pieQ2")
+        plotlyOutput("pieQ2"),
+        p(strong("Caption: "), "Displays the proportions of microplastics found
+          in San Francisco bay by desired location."),
+        p(strong("Summary")),
+        p('This chart helps us answer the second research question "What types 
+        of microplastics are prevalent? How is that affecting the human body?"
+        This chart also helps us determine what types microplastics are common 
+        in certain locations.'),
+        p("The data from this chart should help policy makers figure out what 
+          types of microplastics area the most prevelent and have the 
+          knowledge to build legistlation to help prevent these types of 
+          plastics from entering our waters. The data should also help 
+          scientists and engineers design devices that filter and prevent these
+          types of microplastics from entering our waters.")
       )
     )
 )
