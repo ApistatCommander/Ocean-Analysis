@@ -219,15 +219,9 @@ server <- function(input, output) {
         avg_number_of_plastic_particles = Mean.num.particles.per.indv
       )
     
-    # top_fish_part_plastic <- fish_df_redux %>%
-    #   top_n(20, avg_number_of_plastic_particles)
+
     top_fish_part_plastic <- fish_df_redux %>%
       top_n(input$slider, avg_number_of_plastic_particles)
-    #reorder
-    top_fish_part_plastic$Common.name <-with(
-      top_fish_part_plastic,
-      reorder(fish_species, avg_number_of_plastic_particles)
-    )
       
     fish_particle_bar <- plot_ly(
       data = top_fish_part_plastic,

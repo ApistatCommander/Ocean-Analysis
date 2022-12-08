@@ -83,7 +83,7 @@ We must find solutions for cleaning the plastic pollutants in the ocean as well 
 
 5. Plastic Ingestion by Marine Fish
     * This data relates to the problem domain and the research question because it shows data regarding who is affected by the plastic within the ocean: marine life. Furthermore, since we depend on marine life, the data is also relevant to many countries and its inhabitants. The data was collected by Matthew S. Savoca, Alexandra G. McInturf, and Elliot L. Hazen in 2021. The study was conducted in order to see plastic consumption within different species, which would then indicate which species and region would need to be further studied.
-    
+
 | Name | Number of Observations | Number of Variables | Purpose |
 |---|---|---|---|
 | [Tracking Marine Litter](https://github.com/info201b-au2022/project-group-7-BC/blob/main/data/Tracking_Marine_Litter_data.CSV) | 165 | 4 | Provides insight on where ocean plastic is coming from (RQ 1) |
@@ -99,7 +99,7 @@ We must find solutions for cleaning the plastic pollutants in the ocean as well 
 
 ## Limitations
 
-Some limitations is in the way that some of the data is collected because there maybe some uncertainty as result of the methods that are used for collected. For example, for some datasets there is little observational data, so a numerical model and simulation is used to track plastics instead. Further uncertainties can be a result of anomalies in the environment such as the currents in the ocean. Furthermore, some datasets have greater focuses on certain regions than other regions. Therefore, this can mean that some regions may not be accounted for, and, in turn, some populations may be excluded as well. Likewise, since the ocean is so vast, some parts of the ocean cannot be accounted for. This can mean that some creatures, such as those deep in the deep-sea, may not be able to be accounted for due to being unstudied.
+Some limitations is in the way that some of the data is collected because there maybe some uncertainty as result of the methods that are used for collection. For example, for some datasets, there is little observational data, so a numerical model and simulation is used to track plastics instead. Further uncertainties can be a result of anomalies in the environment such as the currents in the ocean. Furthermore, some datasets have greater focuses on certain regions than other regions. Therefore, this can mean that some regions may not be accounted for, and, in turn, some populations may be excluded as well. Likewise, since the ocean is so vast, some parts of the ocean cannot be accounted for. This can mean that some creatures, such as those deep in the deep-sea, may not be able to be accounted for due to being unstudied.
 
 ## Findings
 #### Research Question 1
@@ -115,7 +115,7 @@ The findings for the third research question: “What are common waste items on 
 The fourth research question is, “What top ten countries emit the most and least plastic waste?” From our data analysis, we found that the top ten countries that emit the most plastic waste to the ocean per capita in kilograms per year are (in descending order): the Philippines (3.296 kg/y), Suriname, Trinidad and Tobago, Saint Lucia, Malaysia, Guyana, Panama, Grenada, Belize, and Jamaica (0.792 kg/yr). The countries that emit the least (excluding countries with zero emissions) plastic waste to the ocean per capita per kilograms per year (in ascending order) are Saudi Arabia (0.000088 kg/yr), Jordan, Somalia, Oman, Kazakhstan, Georgia, Poland, Namibia, Bulgaria, and Australia (0.0013 kg/yr).
 
 #### Research Question 5
-The fifth research question, “Which animals are affected by marine plastic?” From our data analysis, we found that the species of fish with the most particles of plastic was the Asian sea bass. It contained 1,268.5 particles of plastic on average. The whale shark had the second highest amount of particles of 38. Furthermore, when looking at the proportion of fish species that contained plastic, the data showed that every individual fish in the population contained species. Species include whale sharks, Japanese sea bass, and three-lined tongue sole. 
+The fifth research question, “Which animals are affected by marine plastic?” From our data analysis, we found that the species of fish with the most particles of plastic was the Asian sea bass. It contained 1,268.5 particles of plastic on average. The whale shark had the second highest amount of particles of 38. Furthermore, when looking at the proportion of fish species that contained plastic, the data showed that every individual fish in the population contained species. Species include whale sharks, Japanese sea bass, and three-lined tongue sole.
 
 ## Discussion
 
@@ -146,7 +146,7 @@ Ocean Conservancy. (2021, October 18). *Items found in Oceans Globally 2020.* St
 
 *Ocean plastics pollution.* Ocean Plastics Pollution. (n.d.). Retrieved October 31, 2022, from https://www.biologicaldiversity.org/campaigns/ocean_plastics/
 
-Prata, Joana, et al. “Environmental Exposure to Microplastics: An Overview on Possible Human Health Effects.” *Science Direct*, 13 Nov. 2019, https://www.sciencedirect.com/science/article/pii/S0048969719344468. 
+Prata, Joana, et al. “Environmental Exposure to Microplastics: An Overview on Possible Human Health Effects.” *Science Direct*, 13 Nov. 2019, https://www.sciencedirect.com/science/article/pii/S0048969719344468.
 
 Ritchie, H., & Roser, M. (2018, September 1). *Plastic pollution.* Plastic Pollution. Retrieved October 30, 2022, from https://ourworldindata.org/plastic-pollution  
 
