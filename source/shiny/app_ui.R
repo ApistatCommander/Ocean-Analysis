@@ -8,6 +8,7 @@
 #
 
 library(shiny)
+library(shinythemes)
 
 source("tabs/tab_panel_intro.R")
 source("tabs/tab_panel_chart1.R")
@@ -17,6 +18,7 @@ source("tabs/tab_panel_summary.R")
 source("tabs/tab_panel_report.R")
 
 ui <- navbarPage(
+  theme = shinytheme("yeti"),
   title = "Ocean Plastic",
   position = "fixed-top",
 
