@@ -121,9 +121,12 @@ tab_panel_intro <-tabPanel(
       tags$li("The most prevelent type of microplastic to be found in the San 
               Francisco bay were Fibers"),
       # RQ3
-      tags$li(),
+      tags$li("The most common waste item found on coastlines are cigarette 
+              butts"),
       # RQ4
-      tags$li(),
+      tags$li("Top ten countries that emit the most plastic are the Philippines,
+              Suriname, Trinidad and Tobago, Saint Lucia, Malaysia, Guyana,
+              Panama, Grenada, Belize, and Jamaica."),
       # RQ5
       tags$li()
     )
