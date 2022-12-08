@@ -236,7 +236,10 @@ server <- function(input, output) {
       name = "Top 20 Fish With the Highest Average Number of Plastic Particles", 
       type = "bar"
     ) %>%
-      layout(title = "Top 20 Fish With the Highest Average Number of Plastic Particles")
+      layout(title = "Top 20 Fish With the Highest Average Number of Plastic Particles",
+             yaxis = list(title='Fish Species'),
+             xaxis = list(title = 'Average Number of Plastic Particles Found')
+             )
     
     fish_particle_bar
     
@@ -263,7 +266,9 @@ server <- function(input, output) {
       name = "Fish with the Highest Proportion of Plastic in them",
       type = "bar"
     )%>%
-      layout(title = "Varying Proportions of Plastic within Fish")
+      layout(title = "Varying Proportions of Plastic within Fish",
+             yaxis = list(title='Fish Species'),
+             xaxis = list(title = 'Proportion that Contains Plastic'))
     
     
     #fish_prop_bar
