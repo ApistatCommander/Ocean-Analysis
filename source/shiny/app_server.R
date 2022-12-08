@@ -202,6 +202,62 @@ server <- function(input, output) {
   })
   
 # ----- [Tab 3 - Chart] ----- #
+  
+  #Particles of Plastic
+  
+  output$fish_graph <- renderPlotly({
+    
+    fish_df <- read.csv(url("https://raw.githubusercontent.com/mssavoca/Fish-plastic_meta-analysis/master/Plastics%20ingestion%20records%20fish%20master_final_SciAd.csv"))
+    
+    fish_df_redux <- fish_df %>%
+      select(Common.name, Mean.num.particles.per.indv) %>%
+      filter(Common.name != "")
+    
+    top_fish_part_plastic <- fish_df_redux %>%
+      top_n(20, Mean.num.particles.per.indv)
+    
+    reorder
+    top_fish_part_plastic$Common.name <-with(
+      top_fish_part_plastic,
+      reorder(Common.name, Mean.num.particles.per.indv)
+    )
+      
+    fish_particle_bar <- plot_ly(
+      data = top_fish_part_plastic,
+      x = ~Mean.num.particles.per.indv,
+      y = ~Common.name,
+      name = "Top 20 Fish With the Highest Average Number of Plastic Particles", 
+      type = "bar"
+    ) %>%
+      layout(title = "Top 20 Fish With the Highest Average Number of Plastic Particles")
+    
+    #fish_particle_bar
+    #Proportion containing Plastic   
+    fish_df_redux_proportions <- fish_df %>%
+      select(Common.name, Prop.w.plastic)%>%
+      filter(Common.name != "")
+    
+    top_fish_prop_plastic <- fish_df_redux_proportions %>%
+      top_n(20, Prop.w.plastic)
+    
+    fish_prop_bar <- plot_ly(
+      data = top_fish_prop_plastic, 
+      x= ~Prop.w.plastic,
+      y = ~Common.name,
+      name = "Fish with the Highest Proportion of Plastic in them",
+      type = "bar"
+    )%>%
+      layout(title = "Highest Proportions of Plastic within Fish")
+    
+    
+    #fish_prop_bar
+    #radio button options
+    if(input$plas_show == 1){
+      return(fish_particle_bar)
+    }else if(input$plas_show == 2){
+      return(fish_prop_bar)
+    }
+  })
 }
 
 

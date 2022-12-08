@@ -128,6 +128,8 @@ tab_panel_intro <-tabPanel(
               Suriname, Trinidad and Tobago, Saint Lucia, Malaysia, Guyana,
               Panama, Grenada, Belize, and Jamaica."),
       # RQ5
-      tags$li()
+      tags$li("The fish with by far the most particles of plastic on average was
+              the Asian Sea Bass. Furthermore, for many species, such as whale 
+              sharks, plastic was found in their entire population.")
     )
 )
