@@ -8,13 +8,8 @@ as follows:
 |Report | Brief Description|
 |---------------| -----------------|
 |[Project Proposal](./p01-proposal.md) | Our project proposal: "Ocean Plastic: Where does it come from and what does that mean for us?" Describes our environmental concern about the plastic pollution in the ocean.
-|[Exploratory Data Analysis](./index.html) | A brief description of your exploratory data analysis report
+|[Exploratory Data Analysis](./index.html) | Exploratory Data Analysis of Ocean Plastic and Pollution.
 |[Interactive Vizualizaiton](./xxx) | A brief description of your final report.
-
-
-## DEVELOPER Note 0
-* If the `/docs` directory or the notes below are confusing, please don't worry - We will cover all of the things below in lecture and/or lab.
-* As always, ask your TA or TEAMS if you have questions.
 
 ## DEVELOPER Note 1
 `/docs`
@@ -41,8 +36,3 @@ Where:
 1. You must make your repository *public*. To make it public: Go to your GitHub repository > Settings (top-right) > Change visibility (Danger Zone) > Make Public
 1. You must set the pages source to /docs. To do so: Got your GitHub repository > Pages (bottom-left) > Select "/docs" from the pulldown menu
 1. If you run into trouble, pleaes ask your TA or post on Teams - as usual, it is straigthforward once you know how but can be tricky to figure out the first time.
-
-## DEVELOPER Note 3:  Clear and Concise Documentation
-* Please remember your audience (prospective employers, open source colleagues, TAs, Instructors). Therefore,
-aim for clarity and conciseness.
-* When done, be sure to delete these NOTE sections and the example CSV file (which are intended for you, of course, not your audience!)
