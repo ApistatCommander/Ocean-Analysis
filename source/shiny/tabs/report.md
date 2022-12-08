@@ -113,9 +113,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Discussion
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We must stress the importance of our findings because they are crucial in helping us understand where ocean plastics come from and what does that mean for us. Ocean plastics are negatively impacting the environment for several reasons. First and foremost, the presence of plastic in the ocean is harmful to marine life. Many marine animals, such as turtles, fish, and birds, mistake plastic for food and eat it. This can cause them to become sick or even die. In addition, plastic that breaks down into small particles, known as microplastics, can be ingested by marine life and enter the food chain, potentially harming the animals that consume them and eventually making their way into the human food supply. Another major concern with ocean plastics is that they can persist in the environment for hundreds of years, slowly breaking down into smaller and smaller pieces but never fully biodegrading. This means that the amount of plastic in the ocean is constantly increasing, and it is becoming more and more difficult to clean up. Furthermore, the presence of plastic in the ocean can have negative aesthetic and economic effects. The accumulation of plastic in certain areas can make them unsightly and potentially harmful to tourism and other industries that depend on the health of the ocean.
+In conclusion, the presence of plastic in the ocean is harmful to marine life, can persist in the environment for hundreds of years, and can have negative aesthetic and economic effects. It is important for us to reduce our use of plastic and properly dispose of it to prevent it from entering the ocean and causing further harm to the environment.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+If we understand where it comes from and how it affects the planet we can use this data to implicate new policies in our country and around the world. This data can also help implicate new technologies that will help with waste management, recycling, and cleaning of our environment on land and in the ocean, which will ultimately prevent littering and pollution. This data will help promote environmental justice towards our oceans, marine life, and ourselves as humans because microplastics can end up in human bodies through the food we eat. The implications of our findings will influence the general public and policymakers that ocean plastics and pollution is something that we must proactively prevent because it will harm the health of the planet, animals, and ourselves.
+
 
 ## Conclusion
 
@@ -123,9 +125,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 #### Acknowledgements
 
-| Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.\|
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+We would like to thank Professor David Hendry and our teaching assistant Shiina Sugioka for their help.
 
 ## References
 
